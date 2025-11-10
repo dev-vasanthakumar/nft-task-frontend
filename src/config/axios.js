@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_BASE_URL = "http://localhost:3489/api/v1";
+export const API_BASE_URL = "https://nft-task-backend.onrender.com";
 
 export const api = axios.create({
     baseURL: API_BASE_URL,
